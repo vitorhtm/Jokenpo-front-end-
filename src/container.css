@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  gap: 20px;
+  background-color: aquamarine;
+  justify-content: center;
+}
+
+.div1 {
+  margin: 1.5%;
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+  width: 8%;
+  background-color: aquamarine;
+  align-items: center;
+  border: 2px solid black;
+  box-shadow: 5px 5px 8px;
+  height: 50vw;
+}
+
+.div2 {
+  margin: 1.5%;
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+  width: 8%;
+  background-color: aquamarine;
+  align-items: center;
+  border: 2px solid black;
+  box-shadow: 5px 5px 8px;
+  height: 50vw;
+}
+
+.botao {
+  width: 86px;
+  height: 86px;
+  content: "";
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.botaoselecionado {
+  opacity: 1;
+  animation: fade-in 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  width: 86px;
+  height: 86px;
+  content: "";
+  border-radius: 50%;
+  box-shadow: 0px 5px 5px;
+}
+.pontos {
+  size: 10;
+  width: 100px;
+  height: 100px;
+}
+
+.zerar {
+  width: 100px;
+  height: 50px;
+  box-shadow: 0px 5px 5px;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.mensagem {
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  width: 35%;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contadorusuario {
+  font-size: "64px";
+  width: "10px";
+  display: "flex";
+  justify-content: "center";
+}
+
+.contadorpc {
+  font-size: "64px";
+  width: "10px";
+  display: "flex";
+  justify-content: "center";
+}
